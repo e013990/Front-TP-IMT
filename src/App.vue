@@ -1,13 +1,13 @@
 <template>
   <div id="app">
     <nav class="navbar navbar-expand navbar-dark bg-dark">
-      <router-link to="/personnes" class="navbar-brand">Front SpringBoot App</router-link>
+      <router-link to="/personnes" class="navbar-brand">Annuaire de personnes</router-link>
       <div class="navbar-nav mr-auto">
         <li class="nav-item">
-          <router-link to="/personnes" class="nav-link">Personnes</router-link>
+          <router-link to="/personnes" class="nav-link">[Liste des Personnes]</router-link>
         </li>
         <li class="nav-item">
-          <router-link to="/ajouter-personne" class="nav-link">Ajouter</router-link>
+          <router-link to="/ajouter-personne" class="nav-link">[Ajouter une personne]</router-link>
         </li>
       </div>
     </nav>

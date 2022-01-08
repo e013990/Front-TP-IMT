@@ -17,8 +17,11 @@ class PersonneDataService {
   {
     return http.put("/entree",data);
   }
-  // A COMPLETER
-  
+ 
+  delete(id)
+  {
+    return http.delete(`/entree/${id}`);
+  }
 
 }
 
